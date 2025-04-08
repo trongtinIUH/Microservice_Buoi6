@@ -2,7 +2,7 @@
 
 services:
   discovery-service:
-    build: ./discovery-service  # Đảm bảo build từ thư mục chứa Discovery Service
+    build: ./discovery-service 
     ports:
       - "8761:8761"  # Mở cổng 8761 cho Eureka Server
     environment:
